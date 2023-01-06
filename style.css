@@ -142,6 +142,54 @@ main {
     color: rgb(29, 28, 28);
 }
 
+
+/* servisessection */
+
+.servisessection{
+    background: rgba(17, 16, 16, 0.918);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 25px ;
+    color: #ffffff;
+    border-radius: 15px;
+    margin: 50px 0;
+  
+   
+}
+.servies1 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.servies1 .ser{
+     width: 300px;
+      margin: 10px ;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     height: 250px;
+     padding: 8px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 10px;
+}
+.servies1 .ser i{
+     font-size: 30px;
+     
+}
+.servies1 .ser p{
+     font-size: 15px;
+     line-height: 30px;
+}
+.servieshead{
+     font-size: 70px;
+     text-align: center;
+     color: black;
+     font-weight: 800;
+     margin: 100px  0;
+}
+
 /* watch section */
 .watchsection {
     padding: 25px;
@@ -176,6 +224,10 @@ main {
     border-radius: 10px;
     background-color: #ffffff;
 }
+
+
+
+
 
 /* footer section */
 footer {
